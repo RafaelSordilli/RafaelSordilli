@@ -1,0 +1,137 @@
+/* Estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+/* Estilo para o container principal */
+.container {
+    text-align: center; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilos para o título dentro do cabeçalho  */
+header h1 {
+    font-size: 40px; 
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+/* Estilos para o parágrafo dentro do cabeçalho  */
+header p {
+    font-size: 16px; 
+    color: #666; 
+    margin-bottom: 30px; 
+}
+
+/* Estilos para o elemento main */
+main {
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+/* Estilos para os botões */
+.button {
+    display: inline-block; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: #fff; 
+    background-color: #007bff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+/* Estilos para o estado hover dos botões */
+.button:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+
+.button-primary {
+    background-color: #25D366; 
+}
+
+.button-primary:hover {
+    background-color: #03b846; 
+}
+
+.button-secondary {
+    background-color: #0e76a8; 
+}
+
+.button-secondary:hover {
+    background-color: #056896; 
+}
+
+.button-tertiary {
+    background-color: #bd2c00; 
+}
+
+.button-tertiary:hover {
+    background-color: #a30909; 
+}
+
+.button-quartiary {
+    background-color: #dd2a7b; 
+}
+
+.button-quartiary:hover {
+    background-color: #a5045d; 
+}
+
+/* Estilos para o botão de voltar */
+.back-button {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    background-color: #3498db; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.back-button:hover {
+    background-color: #2980b9; 
+}
+
+/* Estilos para o rodapé */
+footer {
+    margin-top: 30px; 
+    font-size: 15px; 
+    color: #666; 
+}
+
+/* Estilos para o título h1 */
+h1 {
+    font-size: 40px;
+    color: #2c3e50; 
+    margin-bottom: 20px; 
+}
+
+/* Estilos para o título h2 */
+h2 {
+    font-size: 33px; 
+    color: #34495e; 
+    margin-bottom: 15px;
+}
+
+/* Estilos para itens de lista */
+ul li {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    color: #555;
+}
